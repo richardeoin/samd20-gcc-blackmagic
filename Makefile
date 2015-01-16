@@ -238,7 +238,7 @@ etags: $(TAGFILES)
 #
 .PHONY: emacs
 emacs:
-	@emacs $(TAGFILES) Makefile config.mk README.md
+	@emacs23 $(TAGFILES) Makefile config.mk README.md
 
 # Removes everything in the output directory
 #
